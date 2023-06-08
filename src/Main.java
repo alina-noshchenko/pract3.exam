@@ -23,12 +23,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome to the Future Simple Quiz!");
-
         System.out.print("Enter your full name: ");
         String fullName = scanner.nextLine();
-
         System.out.println("Hello, " + fullName + "! Let's begin the quiz.");
-
         int score = 0;
         int totalQuestions = QUESTIONS.length;
 
